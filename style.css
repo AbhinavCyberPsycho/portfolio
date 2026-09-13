@@ -6,7 +6,7 @@
   --text: #151515;
   --muted: #64615c;
   --line: rgba(21, 21, 21, 0.13);
-  --accent: #c0422f;
+  --accent: #2563eb;
   --accent-2: #087c72;
   --accent-3: #e4ae35;
   --shadow: 0 24px 70px rgba(47, 38, 28, 0.16);
@@ -20,7 +20,7 @@
   --text: #f7f2ea;
   --muted: #b8b0a4;
   --line: rgba(247, 242, 234, 0.15);
-  --accent: #ff735f;
+  --accent: #60a5fa;
   --accent-2: #49c5b6;
   --accent-3: #f1c75b;
   --shadow: 0 24px 70px rgba(0, 0, 0, 0.36);
@@ -217,7 +217,6 @@ p { color: var(--muted); line-height: 1.75; }
 .project-detail { padding: clamp(22px, 4vw, 36px); }
 .project-detail > div { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
 .project-detail > div span { display: grid; width: 42px; height: 42px; place-items: center; border-radius: 50%; background: var(--accent-3); color: #17120a; font-weight: 900; }
-.project-detail > div p { margin: 0; font-weight: 800; text-transform: uppercase; }
 .chips, .achievement-grid { display: flex; flex-wrap: wrap; gap: 10px; padding: 0; list-style: none; }
 .chips li { border: 1px solid var(--line); border-radius: 999px; padding: 8px 12px; background: var(--surface-2); font-weight: 700; }
 .achievement-grid { display: grid; grid-template-columns: repeat(4, 1fr); }
